@@ -1,0 +1,235 @@
+html, body{
+    height: 100%;
+}
+
+
+.barra-navegacion{
+    background-color: rgb(255, 72, 0);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    text-align: right;
+}
+
+.links-barra-nav{
+    justify-content: right
+}
+
+.links-barra-nav ul{
+    gap: 50px;
+}
+
+.links-barra-nav a{
+    padding: 15px 0 0 0;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+}
+
+.boton-desplegable{
+    justify-content: right;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.logo img{
+    float: left;
+    height: 65px;
+    width: 150px;
+}
+
+nav a :hover{
+    color:rgb(255, 172, 172)
+}
+
+.container-principal{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    align-items: center;
+}
+
+.footer{
+    align-items: center;
+    background-color: rgb(31, 31, 31);
+    color: rgb(209, 209, 209);
+    padding: 1px 0 1px 0;
+}
+
+.nombres{
+    display: flex;
+}
+
+.nombres ul{
+    margin-top: 3px;
+}
+
+.copy {
+    text-align: center;
+}
+
+.rrss{
+    display: flex;
+    justify-content: center;
+    margin: 1px 0 0 0;
+}
+
+.rrss img{
+    width: 25px;   
+}
+
+.objetivos-sweb{
+    margin-top: 3%;
+    text-align: center;
+}
+
+.objetivos-sweb p{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.objetivos{
+    display: flex;
+    row-gap: 30px;
+    margin: 0 0 60px 0;
+}
+
+.objetivo{
+    margin: 0 auto;
+    min-width: 200px;
+}
+
+.carrusel1{
+    min-width: 250px;
+}
+
+.carrusel2{
+    padding: 10px 0 10px 0;
+    margin: 0 auto;
+    max-width: 400px;
+}
+
+.objetivo-proyectoweb1{
+    text-align: center;
+    padding: 10px 0 10px 0;
+    margin: 0 auto;
+    min-width: 330px;
+}
+
+.objetivo-proyectoweb2{
+    min-width: 170px;
+    font-size: 23px;
+}
+
+.video_link{
+    margin: 30px 0 30px 0;
+}
+
+.video_link a{
+    color: rgb(116, 116, 255);
+    text-decoration-line: underline;
+}
+
+.galeria{
+    display: flex;
+    padding: 10px 20px;
+}
+
+.cuadro-foto{
+    min-width: 300px;
+    margin: 0 auto;
+}
+
+.foto{
+    border: 1px solid lightcoral;
+    transform: perspective(10px)  ;
+    text-align: center;
+    
+}
+
+.pie p{
+    text-align: center;
+    padding: 10px;
+}
+
+.foto .foto-img{
+    backface-visibility: hidden;
+    border-radius: 10px;
+    transition: 5s;
+    padding: 0 0 5px 0;
+    transform: perspective(10px) rotateY(0deg);
+    box-shadow: 0 5px 10px #000;
+}
+
+.foto-img img{
+    display: flex;
+    height: 350px;
+    margin: 0 auto;
+    padding: 25px 0 0 0;
+}
+
+.titulo-contacto{
+    text-align: center;
+    padding: 0 0 10px 0;
+}
+
+#formulario-contacto{
+    margin: 0 auto;
+    text-align: left;
+    max-width: 365px;
+    padding: 0 0 30px 0;
+}
+
+#formulario-contacto p{
+    margin: 5px 0 0 0;
+    border: 1px solid rgba(255, 0, 0, 0.255);
+    border-radius: 5px;
+    padding: 5px;
+    background-color: rgba(255, 55, 55, 0.201);
+}
+
+.titulo-suscripcion{
+    text-align: center;
+    padding: 40px 0 0 0;
+}
+
+#formulario-suscripcion{
+    margin: 0 auto;
+    text-align: left;
+    max-width: 365px;
+    padding: 0 0 30px 0;
+}
+
+#formulario-suscripcion p{
+    margin: 5px 0 0 0;
+    border: 1px solid rgba(255, 0, 0, 0.255);
+    border-radius: 5px;
+    padding: 5px;
+    background-color: rgba(255, 55, 55, 0.201);
+}
+
+#boton1{
+    float: right;
+    max-width: 80px;
+    margin: 0 0 30px 0;
+}
+
+#motivo-contacto{ /*queja / comentario / sugerencia / otro*/
+    max-width: 110px;
+}
+
+#genero{
+    max-width: 100px;
+}
+
+#edad{
+    max-width: 182px;
+}
